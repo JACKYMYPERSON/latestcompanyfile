@@ -4,7 +4,6 @@ title: Actions
 
 Actions are commands that you can perform on items, such as files, folders, images, etc. The Command Palette (`Ctrl`+`Shift`+`P`) will show you a list of available actions for the selected item(s), along with their key bindings.
 
-
 # Customizing Actions
 
 You can customize the key bindings for actions by modifying the settings file. To do that, follow these steps:
@@ -24,11 +23,9 @@ For example, if you want to change the key binding for the CopyItem action to `C
 
 For more information about the available actions and their descriptions, please refer to the Actions list section below.
 
-
 # Actions
 
 This section provides the complete list of actions and their descriptions. The actions are grouped by categories for easier reference.
-
 
 ## Global
 
@@ -44,7 +41,6 @@ Opens the online documentation in the web browser
 { "Help": "F1" }
 ```
 
-
 ### Toggle FullScreen
 
 Toggles FullScreen mode
@@ -56,7 +52,6 @@ Toggles FullScreen mode
 ```json
 { "ToggleFullScreen": "F11" }
 ```
-
 
 ### Enter compact overlay
 
@@ -70,7 +65,6 @@ Enters compact overlay
 { "EnterCompactOverlay": "Ctrl+Alt+Up" }
 ```
 
-
 ### Exit compact overlay
 
 Exits compact overlay
@@ -82,7 +76,6 @@ Exits compact overlay
 ```json
 { "ExitCompactOverlay": "Ctrl+Alt+Down" }
 ```
-
 
 ### Toggle compact overlay
 
@@ -96,7 +89,6 @@ Toggles compact overlay
 { "ToggleCompactOverlay": "F12" }
 ```
 
-
 ### Search
 
 Focuses the search box
@@ -108,7 +100,6 @@ Focuses the search box
 ```json
 { "Search": "Ctrl+F,F3" }
 ```
-
 
 ### Redo
 
@@ -122,7 +113,6 @@ Redoes the last file operation
 { "Redo": "Ctrl+Y" }
 ```
 
-
 ### Undo
 
 Undoes the last file operation
@@ -134,7 +124,6 @@ Undoes the last file operation
 ```json
 { "Undo": "Ctrl+Z" }
 ```
-
 
 ### Edit path
 
@@ -162,7 +151,6 @@ Toggles whether to show hidden items
 { "ToggleShowHiddenItems": "Ctrl+H" }
 ```
 
-
 ### Toggle file extensions
 
 Toggles whether to show file extensions
@@ -174,7 +162,6 @@ Toggles whether to show file extensions
 ```json
 { "ToggleShowFileExtensions": "" }
 ```
-
 
 ### Toggle Preview Pane
 
@@ -188,7 +175,6 @@ Toggles the Preview Pane
 { "TogglePreviewPane": "Ctrl+Alt+P" }
 ```
 
-
 ### Toggle Details Pane
 
 Toggles the Details Pane
@@ -200,7 +186,6 @@ Toggles the Details Pane
 ```json
 { "ToggleDetailsPane": "Ctrl+Alt+D" }
 ```
-
 
 ### Toggle Info Pane
 
@@ -214,9 +199,7 @@ Toggles the Info Pane
 { "ToggleInfoPane": "Ctrl+Alt+I" }
 ```
 
-
 ## File System
-
 
 ### Copy item
 
@@ -230,7 +213,6 @@ Copy selected items to the clipboard
 { "CopyItem": "Ctrl+C" }
 ```
 
-
 ### Copy path
 
 Copy paths of selected items to the clipboard
@@ -242,7 +224,6 @@ Copy paths of selected items to the clipboard
 ```json
 { "CopyPath": "Ctrl+Shift+C" }
 ```
-
 
 ### Cut item
 
@@ -256,7 +237,6 @@ Cut selected items to the clipboard
 { "Cut": "Ctrl+X" }
 ```
 
-
 ### Paste item
 
 Pastes items from clipboard to current directory
@@ -268,7 +248,6 @@ Pastes items from clipboard to current directory
 ```json
 { "PasteItem": "Ctrl+V" }
 ```
-
 
 ### Paste item to selected folder
 
@@ -282,7 +261,6 @@ Pastes items from clipboard to the selected folder
 { "PasteItemToSelection": "Ctrl+Shift+V" }
 ```
 
-
 ### Delete item
 
 Deletes selected items
@@ -294,7 +272,6 @@ Deletes selected items
 ```json
 { "DeleteItem": "Delete,Ctrl+D" }
 ```
-
 
 ### Permanently delete item
 
@@ -308,7 +285,6 @@ Permanently deletes selected items
 { "DeleteItemPermanently": "Shift+Delete" }
 ```
 
-
 ### Create folder
 
 Creates new folder
@@ -320,7 +296,6 @@ Creates new folder
 ```json
 { "CreateFolder": "Ctrl+Shift+N" }
 ```
-
 
 ### Create folder with selection
 
@@ -334,7 +309,6 @@ Creates new folder with the selected items
 { "CreateFolderWithSelection": "" }
 ```
 
-
 ### Create item
 
 Creates new item
@@ -346,7 +320,6 @@ Creates new item
 ```json
 { "AddItem": "Ctrl+Shift+I" }
 ```
-
 
 ### Create shortcut
 
@@ -360,7 +333,6 @@ Creates shortcut targeting the selected item
 { "CreateShortcut": "" }
 ```
 
-
 ### Create shortcut from dialog
 
 Creates shortcut targeting any item
@@ -372,7 +344,6 @@ Creates shortcut targeting any item
 ```json
 { "CreateShortcutFromDialog": "" }
 ```
-
 
 ### Open item
 
@@ -386,7 +357,6 @@ Opens selected items
 { "OpenItem": "Enter" }
 ```
 
-
 ### Open item with application picker
 
 Opens items with the selected application
@@ -398,7 +368,6 @@ Opens items with the selected application
 ```json
 { "OpenItemWithApplicationPicker": "" }
 ```
-
 
 ### Open parent folder
 
@@ -412,7 +381,6 @@ Opens parent folder of searched item
 { "OpenParentFolder": "" }
 ```
 
-
 ### Open file location
 
 Opens location of the selected item
@@ -424,7 +392,6 @@ Opens location of the selected item
 ```json
 { "OpenFileLocation": "" }
 ```
-
 
 ### Refresh items
 
@@ -438,7 +405,6 @@ Refreshes the items of the current directory
 { "RefreshItems": "Ctrl+R,F5" }
 ```
 
-
 ### Rename item
 
 Renames selected item
@@ -450,7 +416,6 @@ Renames selected item
 ```json
 { "Rename": "F2" }
 ```
-
 
 ## Selection
 
@@ -466,7 +431,6 @@ Selects all items
 { "SelectAll": "Ctrl+A" }
 ```
 
-
 ### Invert selection
 
 Inverts the selected items
@@ -479,7 +443,6 @@ Inverts the selected items
 { "InvertSelection": "" }
 ```
 
-
 ### Clear selection
 
 Clears the selected items
@@ -491,7 +454,6 @@ Clears the selected items
 ```json
 { "ClearSelection": "" }
 ```
-
 
 ### Toggle selection
 
@@ -533,7 +495,6 @@ Pins selected items to the Start Menu
 { "PinToStart": "" }
 ```
 
-
 ### Unpin from start
 
 Unpins selected items from the Start Menu
@@ -559,7 +520,6 @@ Pins selected folders to sidebar
 ```json
 { "PinFolderToSidebar": "" }
 ```
-
 
 ### Unpin from Sidebar
 
@@ -587,7 +547,6 @@ Sets selected picture as the desktop background
 { "SetAsWallpaperBackground": "" }
 ```
 
-
 ### Set as desktop slideshow
 
 Sets selected pictures as the desktop slideshow
@@ -599,7 +558,6 @@ Sets selected pictures as the desktop slideshow
 ```json
 { "SetAsSlideshowBackground": "" }
 ```
-
 
 ### Set as lockscreen slideshow
 
@@ -627,7 +585,6 @@ Installs selected fonts
 { "InstallFont": "" }
 ```
 
-
 ### Install Inf
 
 Installs selected Inf files
@@ -639,7 +596,6 @@ Installs selected Inf files
 ```json
 { "InstallInfDriver": "" }
 ```
-
 
 ### Install certificate
 
@@ -667,7 +623,6 @@ Runs selected items as admin
 { "RunAsAdmin": "" }
 ```
 
-
 ### Run as another user
 
 Runs selected items as another user
@@ -679,7 +634,6 @@ Runs selected items as another user
 ```json
 { "RunAsAnotherUser": "" }
 ```
-
 
 ### Run with Powershell
 
@@ -721,7 +675,6 @@ Prompts to create archive from selected items
 { "CompressIntoArchive": "" }
 ```
 
-
 ### Create 7z archive
 
 Creates 7z archive with selected items
@@ -733,7 +686,6 @@ Creates 7z archive with selected items
 ```json
 { "CompressIntoSevenZip": "" }
 ```
-
 
 ### Create zip archive
 
@@ -747,7 +699,6 @@ Creates zip archive with selected items
 { "CompressIntoZip": "" }
 ```
 
-
 ### Extract archive
 
 Prompts to extract items from selected archive
@@ -759,7 +710,6 @@ Prompts to extract items from selected archive
 ```json
 { "DecompressArchive": "Ctrl+E" }
 ```
-
 
 ### Extract archive here
 
@@ -773,7 +723,6 @@ Extracts items from selected archive to current folder
 { "DecompressArchiveHere": "" }
 ```
 
-
 ### Extract archive to new folder
 
 Extracts items from selected archive to a new folder
@@ -785,7 +734,6 @@ Extracts items from selected archive to a new folder
 ```json
 { "DecompressArchiveToChildFolder": "" }
 ```
-
 
 ### Smart extract
 
@@ -813,7 +761,6 @@ Rotates selected images left
 { "RotateLeft": "" }
 ```
 
-
 ### Rotate right
 
 Rotates selected images right
@@ -840,7 +787,6 @@ Opens current folder in Visual Studio
 { "OpenInVS": "" }
 ```
 
-
 ### Open in Visual Studio Code
 
 Opens current folder in Visual Studio Code
@@ -852,7 +798,6 @@ Opens current folder in Visual Studio Code
 ```json
 { "OpenInVSCode": "" }
 ```
-
 
 ### Open properties
 
@@ -866,7 +811,6 @@ Opens properties window
 { "OpenProperties": "Alt+Enter" }
 ```
 
-
 ### Open settings
 
 Opens settings
@@ -879,10 +823,9 @@ Opens settings
 { "OpenSettings": "Ctrl+," }
 ```
 
-
 ### Open Terminal
 
-Opens folder in Windows Terminal 
+Opens folder in Windows Terminal
 
 **Action name:** `OpenTerminal`
 
@@ -891,7 +834,6 @@ Opens folder in Windows Terminal
 ```json
 { "OpenTerminal": "Ctrl+`" }
 ```
-
 
 ### Open Terminal as admin
 
@@ -904,7 +846,6 @@ Opens folder in Windows Terminal as admin
 ```json
 { "OpenTerminalAsAdmin": "Ctrl+Shift+`" }
 ```
-
 
 ### Open Command Palette
 
@@ -932,7 +873,6 @@ Switches to the Details View
 { "LayoutDetails": "Ctrl+Shift+1" }
 ```
 
-
 ### List View
 
 Switches to the List View
@@ -944,7 +884,6 @@ Switches to the List View
 ```json
 { "LayoutList": "Ctrl+Shift+2" }
 ```
-
 
 ### Tiles View
 
@@ -958,7 +897,6 @@ Switches to the Tiles View
 { "LayoutTiles": "Ctrl+Shift+3" }
 ```
 
-
 ### Grid View
 
 Switches to the Grid View
@@ -970,7 +908,6 @@ Switches to the Grid View
 ```json
 { "LayoutGrid": "Ctrl+Shift+4" }
 ```
-
 
 ### Columns View
 
@@ -984,7 +921,6 @@ Switches to the Columns View
 { "LayoutColumns": "Ctrl+Shift+5" }
 ```
 
-
 ### Adaptive Layout
 
 Switches the layout based on the folder contents
@@ -997,7 +933,6 @@ Switches the layout based on the folder contents
 { "LayoutAdaptive": "Ctrl+Shift+6" }
 ```
 
-
 ### Increase icon size
 
 Increases the icon size
@@ -1009,7 +944,6 @@ Increases the icon size
 ```json
 { "LayoutIncreaseSize": "Ctrl++" }
 ```
-
 
 ### Decrease icon size
 
@@ -1037,7 +971,6 @@ Sorts items alphabetically by their name
 { "SortByName": "" }
 ```
 
-
 ### Sort by date modified
 
 Sorts items by the date and time they were last modified
@@ -1049,7 +982,6 @@ Sorts items by the date and time they were last modified
 ```json
 { "SortByDateModified": "" }
 ```
-
 
 ### Sort by date created
 
@@ -1063,7 +995,6 @@ Sorts items by the date and time they were created
 { "SortByDateCreated": "" }
 ```
 
-
 ### Sort by size
 
 Sorts items by their size
@@ -1075,7 +1006,6 @@ Sorts items by their size
 ```json
 { "SortBySize": "" }
 ```
-
 
 ### Sort by type
 
@@ -1089,7 +1019,6 @@ Sorts items by their type
 { "SortByType": "" }
 ```
 
-
 ### Sort by sync status
 
 Sorts items by their cloud sync status
@@ -1101,7 +1030,6 @@ Sorts items by their cloud sync status
 ```json
 { "SortBySyncStatus": "" }
 ```
-
 
 ### Sort by tags
 
@@ -1115,7 +1043,6 @@ Sorts items by the tags assigned to them
 { "SortByTag": "" }
 ```
 
-
 ### Sort by path
 
 Sorts items by their in the file system
@@ -1127,7 +1054,6 @@ Sorts items by their in the file system
 ```json
 { "SortByPath": "" }
 ```
-
 
 ### Sort by original folder
 
@@ -1141,7 +1067,6 @@ Sorts items by the original folder they were deleted from
 { "SortByOriginalFolder": "" }
 ```
 
-
 ### Sort by date deleted
 
 Sorts items by the date and time they were deleted
@@ -1153,7 +1078,6 @@ Sorts items by the date and time they were deleted
 ```json
 { "SortByDateDeleted": "" }
 ```
-
 
 ### Sort items in ascending order
 
@@ -1167,7 +1091,6 @@ Sorts items in ascending order according to the current sort option
 { "SortAscending": "" }
 ```
 
-
 ### Sort items in descending order
 
 Sorts items in descending order according to the current sort option
@@ -1179,7 +1102,6 @@ Sorts items in descending order according to the current sort option
 ```json
 { "SortDescending": "" }
 ```
-
 
 ### Toggle sort direction
 
@@ -1193,7 +1115,6 @@ Toggles the sort direction between ascending and descending
 { "ToggleSortDirection": "" }
 ```
 
-
 ### Sort folders first
 
 Lists and sorts folders before files
@@ -1206,7 +1127,6 @@ Lists and sorts folders before files
 { "SortFoldersFirst": "" }
 ```
 
-
 ### Sort files first
 
 Lists and sorts files before folders
@@ -1218,7 +1138,6 @@ Lists and sorts files before folders
 ```json
 { "SortFilesFirst": "" }
 ```
-
 
 ### Sort folders alongside files
 
@@ -1246,7 +1165,6 @@ Lists items without grouping them
 { "GroupByNone": "" }
 ```
 
-
 ### Group by name
 
 Groups items by name
@@ -1258,7 +1176,6 @@ Groups items by name
 ```json
 { "GroupByName": "" }
 ```
-
 
 ### Group by date modified
 
@@ -1272,7 +1189,6 @@ Groups items by date modified
 { "GroupByDateModified": "" }
 ```
 
-
 ### Group by date created
 
 Groups items by date created
@@ -1284,7 +1200,6 @@ Groups items by date created
 ```json
 { "GroupByDateCreated": "" }
 ```
-
 
 ### Group by size
 
@@ -1298,7 +1213,6 @@ Groups items by size
 { "GroupBySize": "" }
 ```
 
-
 ### Group by type
 
 Groups items by type
@@ -1310,7 +1224,6 @@ Groups items by type
 ```json
 { "GroupByType": "" }
 ```
-
 
 ### Group by sync status
 
@@ -1324,7 +1237,6 @@ Groups items by sync status
 { "GroupBySyncStatus": "" }
 ```
 
-
 ### Group by tags
 
 Groups items by tags
@@ -1336,7 +1248,6 @@ Groups items by tags
 ```json
 { "GroupByTag": "" }
 ```
-
 
 ### Group by original folder
 
@@ -1350,7 +1261,6 @@ Groups items by original folder
 { "GroupByOriginalFolder": "" }
 ```
 
-
 ### Group by date deleted
 
 Groups items by date deleted
@@ -1362,7 +1272,6 @@ Groups items by date deleted
 ```json
 { "GroupByDateDeleted": "" }
 ```
-
 
 ### Group by folder path
 
@@ -1376,7 +1285,6 @@ Groups items by folder path
 { "GroupByFolderPath": "" }
 ```
 
-
 ### Group by date modified (year)
 
 Groups items by year of date modified
@@ -1388,7 +1296,6 @@ Groups items by year of date modified
 ```json
 { "GroupByDateModifiedYear": "" }
 ```
-
 
 ### Group by date modified (month)
 
@@ -1402,7 +1309,6 @@ Groups items by month of date modified
 { "GroupByDateModifiedMonth": "" }
 ```
 
-
 ### Group by date modified (day)
 
 Groups items by day of date modified
@@ -1414,7 +1320,6 @@ Groups items by day of date modified
 ```json
 { "GroupByDateModifiedDay": "" }
 ```
-
 
 ### Group by date created (year)
 
@@ -1428,7 +1333,6 @@ Groups items by year of date created
 { "GroupByDateCreatedYear": "" }
 ```
 
-
 ### Group by date created (month)
 
 Groups items by month of date created
@@ -1440,7 +1344,6 @@ Groups items by month of date created
 ```json
 { "GroupByDateCreatedMonth": "" }
 ```
-
 
 ### Group by date created (day)
 
@@ -1454,7 +1357,6 @@ Groups items by day of date created
 { "GroupByDateCreatedDay": "" }
 ```
 
-
 ### Group by date deleted (year)
 
 Groups items by year of date deleted
@@ -1466,7 +1368,6 @@ Groups items by year of date deleted
 ```json
 { "GroupByDateDeletedYear": "" }
 ```
-
 
 ### Group by date deleted (month)
 
@@ -1480,7 +1381,6 @@ Groups items by month of date deleted
 { "GroupByDateDeletedMonth": "" }
 ```
 
-
 ### Group by date deleted (day)
 
 Groups items by day of date deleted
@@ -1492,7 +1392,6 @@ Groups items by day of date deleted
 ```json
 { "GroupByDateDeletedDay": "" }
 ```
-
 
 ### Group in ascending order
 
@@ -1506,7 +1405,6 @@ Sorts groups in ascending order
 { "GroupAscending": "" }
 ```
 
-
 ### Group in Descending order
 
 Sorts groups in descending order
@@ -1518,7 +1416,6 @@ Sorts groups in descending order
 ```json
 { "GroupDescending": "" }
 ```
-
 
 ### Toggle sort direction
 
@@ -1532,7 +1429,6 @@ Toggles group sort direction
 { "ToggleGroupDirection": "" }
 ```
 
-
 ### Group by year
 
 Groups items by year
@@ -1545,7 +1441,6 @@ Groups items by year
 { "GroupByYear": "" }
 ```
 
-
 ### Group by month
 
 Groups items by month
@@ -1557,7 +1452,6 @@ Groups items by month
 ```json
 { "GroupByMonth": "" }
 ```
-
 
 ### Toggle grouping unit
 
@@ -1585,7 +1479,6 @@ Opens a new tab
 { "NewTab": "Ctrl+T" }
 ```
 
-
 ### New tab
 
 Opens a new tab
@@ -1597,7 +1490,6 @@ Opens a new tab
 ```json
 { "NewTab": "Ctrl+T" }
 ```
-
 
 ### New Window
 
@@ -1611,10 +1503,9 @@ Opens a new window
 { "NewWindow": "Ctrl+N" }
 ```
 
-
 ### Navigate back
 
-Navigates backward in navigation history	
+Navigates backward in navigation history
 
 **Action name:** `NavigateBack`
 
@@ -1624,10 +1515,9 @@ Navigates backward in navigation history
 { "NavigateBack": "Alt+Left,Backspace" }
 ```
 
-
 ### Navigate forward
 
-Navigates forward in navigation history	
+Navigates forward in navigation history
 
 **Action name:** `NavigateForward`
 
@@ -1636,7 +1526,6 @@ Navigates forward in navigation history
 ```json
 { "NavigateForward": "Alt+Right" }
 ```
-
 
 ### Navigate up
 
@@ -1652,7 +1541,6 @@ Navigates up one directory
 
 ## Other
 
-
 ### Duplicate tab
 
 Duplicates the current tab
@@ -1664,7 +1552,6 @@ Duplicates the current tab
 ```json
 { "DuplicateCurrentTab": "Ctrl+Shift+K" }
 ```
-
 
 ### Close tabs to the left
 
@@ -1678,7 +1565,6 @@ Closes tabs to the left of the current tab
 { "CloseTabsToTheLeftCurrent": "" }
 ```
 
-
 ### Close tabs to the right
 
 Closes tabs to the right of the current tab
@@ -1690,7 +1576,6 @@ Closes tabs to the right of the current tab
 ```json
 { "CloseTabsToTheRightCurrent": "" }
 ```
-
 
 ### Close other tabs
 
@@ -1704,7 +1589,6 @@ Closes other tabs
 { "CloseOtherTabsCurrent": "" }
 ```
 
-
 ### Open folder in new pane
 
 Opens selected folder in a new pane
@@ -1716,7 +1600,6 @@ Opens selected folder in a new pane
 ```json
 { "OpenDirectoryInNewPane": "" }
 ```
-
 
 ### Open folder in new tab
 
@@ -1730,7 +1613,6 @@ Opens selected folder in a new tab
 { "OpenDirectoryInNewTab": "" }
 ```
 
-
 ### Open folder in new window
 
 Opens selected folder in a new window
@@ -1742,7 +1624,6 @@ Opens selected folder in a new window
 ```json
 { "OpenInNewWindowItem": "" }
 ```
-
 
 ### Reopen closed tab
 
@@ -1756,7 +1637,6 @@ Reopens the last closed tab
 { "ReopenClosedTab": "Ctrl+Shift+T" }
 ```
 
-
 ### Move to the previous tab
 
 Switches focus to the previous tab
@@ -1768,7 +1648,6 @@ Switches focus to the previous tab
 ```json
 { "PreviousTab": "Ctrl+Shift+Tab" }
 ```
-
 
 ### Move to the next tab
 
@@ -1782,7 +1661,6 @@ Switches focus to the next tab
 { "NextTab": "Ctrl+Tab" }
 ```
 
-
 ### Close tab
 
 Closes the current tab
@@ -1795,7 +1673,6 @@ Closes the current tab
 { "CloseSelectedTab": "Ctrl+W,Ctrl+F4" }
 ```
 
-
 ### New pane
 
 Opens a new pane
@@ -1807,7 +1684,6 @@ Opens a new pane
 ```json
 { "OpenNewPane": "Alt+Shift++" }
 ```
-
 
 ### Close pane
 
@@ -1849,7 +1725,6 @@ Runs git fetch
 { "GitFetch": "" }
 ```
 
-
 ### Init
 
 Initializes the current folder as a Git repository
@@ -1861,7 +1736,6 @@ Initializes the current folder as a Git repository
 ```json
 { "GitInit": "" }
 ```
-
 
 ### Pull
 
@@ -1875,7 +1749,6 @@ Runs git pull
 { "GitPull": "" }
 ```
 
-
 ### Push
 
 Runs git push
@@ -1887,7 +1760,6 @@ Runs git push
 ```json
 { "GitPush": "" }
 ```
-
 
 ### Sync
 

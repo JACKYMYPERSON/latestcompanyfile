@@ -174,7 +174,7 @@
 			<header>
 				<span>
 					{$page.url.pathname.split("/").join(" / ").substring(2)}
-					{$page.url.pathname === "/docs" ? " / overview1" : ""}
+					{$page.url.pathname === "/docs" ? " / kaishi" : ""}
 				</span>
 				<div class="header-right">
 					<Button

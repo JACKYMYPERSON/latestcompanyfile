@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"repository": "https://github.com/files-community/files",
 	"scripts": {
-		"dev": "vite dev --host --port 80",
+		"dev": "vite dev --host --port 85",
 		"build": "vite build",
 		"preview": "svelte-kit preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
