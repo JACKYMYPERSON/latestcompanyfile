@@ -7,17 +7,14 @@
 	import Discord from "./icons/discord.svg?raw";
 
 	const contributors = [
-		{
-			name: "github",
-			link: "https://github.com/Tropix126/",
-		},
+		
 		{
 			name: "微信",
-			link: "https://www.theonlytails.com/",
+			link: "#",
 		},
 		{
 			name: "qq",
-			link: "https://github.com/chingucoding/",
+			link: "#",
 		},
 	];
 </script>
@@ -27,16 +24,7 @@
 		<a class="logo" href="/">
 			<picture> </picture>
 		</a>
-		<div class="social-links">
-			<IconButton
-				href="https://github.com/JACKYMYPERSON?tab=repositories"
-				title="作者GitHub"
-				aria-label="GitHub repository"
-				{...externalLink}
-			>
-				{@html Github}
-			</IconButton>
-		</div>
+		
 		<p>Copyright©2024 mayiming</p>
 		<p>Developed by 湖北省武汉市懿科星互联网有限责任公司 鄂ICP备2024037056号</p>
 	</div>
@@ -48,28 +36,25 @@
 		<Button variant="hyperlink" href="/docs">
 			{$_("文档", defaultI18nValues)}
 		</Button>
-		<Button variant="hyperlink" href="/blog">
-			{$_("下载", defaultI18nValues)}
-		</Button>
+		
 	</div>
 	<div class="column">
 		<p>支持与服务</p>
 		<Button
 			variant="hyperlink"
 			{...externalLink}
-			href="https://github.com/{links.github.owner}/{links.github
-				.repo}/issues/new/choose"
+			href="#"
 		>
 			{$_("支持", defaultI18nValues)}
 		</Button>
 
-		<Button variant="hyperlink" href="/docs/contributing/code-style">
+		<Button variant="hyperlink" href="#">
 			{$_("会员", defaultI18nValues)}
 		</Button>
 
 		<Button
 			{...externalLink}
-			href="https://crowdin.com/project/files-app"
+			href="#"
 			variant="hyperlink"
 		>
 			{$_("优惠政策", defaultI18nValues)}

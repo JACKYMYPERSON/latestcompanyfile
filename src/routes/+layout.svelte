@@ -34,17 +34,13 @@
 			icon: Book,
 		},
 
-		{
-			name: $_("更新"),
-			path: "/download",
-			icon: Download,
-		},
+		
 	];
 
 	const navbarButtons = [
 		{
 			label: $_("navbar.github", defaultI18nValues),
-			href: `https://github.com/JACKYMYPERSON?tab=repositories`,
+			href: ``,
 			icon: Code,
 		},
 	];
