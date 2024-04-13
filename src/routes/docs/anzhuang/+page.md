@@ -6,63 +6,60 @@ title: 注意事项
   import { Button, InfoBar } from "fluent-svelte";
 </script>
 
-## Install and get started with Files
+## 关于宠物的疾病
 
-<Button href="/download/" variant="accent">
-	Install Files
-</Button>
+### 宠物可能患上各种不同的疾病和健康问题，这可能包括：
 
-Files is a community-driven project that depends on your support to grow and improve. Please consider purchasing Files through the Microsoft Store or supporting us on GitHub if you use the classic installer.
+1. 寄生虫感染：包括`蠕虫`、`跳蚤`、`蜱虫`等。这些可以引起宠物的消化系统问题和其他健康问题。
 
-You can also use the preview version alongside the stable release to get early access to new features and improvements.
+2. 呼吸道感染：宠物可能患上`感冒`，`流感`，`肺炎`等呼吸道感染。
 
-<InfoBar title="Note" severity="information">
-	The Windows Update and Delivery Optimization services will need to be enabled in order for the installation to work. Modified versions of Windows or running "debloat" scripts/programs are often missing these components and aren't supported.
-</InfoBar>
+3. 眼耳疾病：包括`眼炎`、`耳部感染`等。
 
-### Install via PowerShell
+4. 肿瘤和肿块：宠物也可能患上`肿瘤`和`肿块`，需要及时治疗。
 
-1. Open PowerShell as administrator.
-2. Run this command `Add-AppxPackage -AppInstallerFile https://cdn.files.community/files/stable/Files.Package.appinstaller`.
+5. 骨骼和关节问题：包括`骨折`、`关节炎`等。
 
-### Install via Chocolatey
+6. 皮肤病：宠物可能患上`皮肤炎`、`湿疹`等问题。
 
-The [Chocolatey](https://community.chocolatey.org/packages/files) installation is maintained by a third party but it's another option.
+7. 内分泌系统问题：包括`糖尿病`、`甲状腺`问题等。
 
-## Keep Files up to date
+## 应对措施
 
-Files will automatically check for updates whenever the app is opened and an indicator will be displayed on the toolbar if an update is available. You can also manually check for updates from the [Microsoft Store](ms-windows-store://pdp/?ProductId=9nghp3dx8hdx&cid=FilesWebsite) or by downloading the sideload [installer](/download/).
+### 针对宠物可能患上的各种疾病，宠物主人可以采取以下措施来预防和对抗这些健康问题：
 
-<InfoBar title="Note" severity="information">
-	Installing an update will automatically restart Files so make sure to save your work before starting an update.
-</InfoBar>
+1. 养成定期带宠物去兽医检查的习惯，检查健康状况并确保宠物接受及时的预防接种和治疗。
 
-### Steps required for the "classic installer" version after 3/21/2024
+2. 定期进行内外寄生虫的预防和除虫，保持宠物清洁卫生。
 
-Starting 3/21/2024, users of the sideload version (aka classic installer) will need to reinstall Files in order to continue receiving automatic updates. This is a one time requirement due to changes in the code signing certificate.
+3. 提供良好的饮食营养，确保宠物获得足够的营养和水分，提高免疫力。
 
-<InfoBar title="Note" severity="information">
-	This is not required for the Store version of Files.
-</InfoBar>
+4. 定期进行锻炼和活动，保持宠物的健康状态，减少肥胖和骨骼问题的发生。
 
-1. Export your settings by going to `Settings > Advanced > Export`.
-2. Uninstall Files and restart Windows
-3. [Reinstall](/download/) Files.
-4. Import your settings from `Settings > Advanced > Import`.
+5. 定期进行口腔卫生保健，例如刷牙和提供适当的咀嚼玩具。
 
-## Troubleshooting
+6. 定期检查宠物的皮肤和毛发，及时发现皮肤问题并进行治疗。
 
-### Cannot open app package
+7. 定期清洁和消毒宠物的生活环境，包括窝、玩具和食具等。
 
-If you see a "Cannot open app package" message when you try to open Files, it means that your device needs an update for the AppInstaller component. You can update it from the Microsoft Store app on your device, or by downloading and running this [installer](https://learn.microsoft.com/en-us/windows/msix/app-installer/install-update-app-installer).
+8. 关注宠物的行为和习惯变化，及时发现不适和健康问题，并及时就医治疗。
 
-### Updates
 
-If you encounter any problems or errors while updating Files, you can try the following solutions:
 
-1. Make sure you have a stable internet connection and enough disk space for the update.
-2. Restart your computer and try to update Files again.
+## 上门喂养宠物是一项非常重要的责任，以下是一些注意事项：
 
-### Windows cannot install package because a different package with the same name is already installed
+- 宠物饮食：确保了解宠物的饮食习惯和食物过敏情况。如果宠物有特殊的饮食需求或限制，一定要遵守宠物主人的要求。
 
-If you get this error code, you'll need to uninstall and [reinstall](/download/) Files. You can also export/import the settings file to keep your existing settings.
+- 定时喂食：按照宠物主人的指示和时间表，准时喂食宠物，并留意宠物的饮食量。
+
+- 提供新鲜水源：确保宠物有足够的新鲜水供应。
+
+- 安全环境：在宠物主人提供的指引下，确保宠物身处在安全的环境中。
+
+- 玩耍和锻炼：尽量提供一定的玩耍和锻炼时间，让宠物能够消耗一些精力。
+
+- 注意卫生：保持宠物生活区域的清洁，并定期更换饮食用具和清理排泄物。
+
+- 关注宠物的行为和健康：留意宠物的健康状况，如有异常情况及时与宠物主人联系并采取必要的行动。
+
+- 遵守主人的要求：遵守主人对宠物喂养和照顾的要求，确保按照他们的要求进行喂养。
